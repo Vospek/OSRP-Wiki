@@ -4,15 +4,15 @@ import type { Config }           from '@docusaurus/types'
 import type * as Preset          from '@docusaurus/preset-classic'
 
 const config: Config = {
-  title:   'ThresholdInitiative',
-  tagline: 'ThresholdInitiative — Official Knowledge Archive',
+  title:   'On-Site: Roleplay',
+  tagline: 'On-Site: Roleplay — Official Knowledge Archive',
   favicon: 'img/favicon.ico',
 
   future: { v4: true },
 
   url:              'https://thres-wiki.vospek.com',
   baseUrl:          '/',
-  organizationName: 'ThresholdInitiative',
+  organizationName: 'Vospek',
   projectName:      'Wiki',
   onBrokenLinks:    'warn',
 
@@ -39,6 +39,12 @@ const config: Config = {
             require.resolve('./src/css/tailwind.css'),
           ],
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -46,6 +52,12 @@ const config: Config = {
   themeConfig: {
     // 社交预览图
     image: 'img/social-card.jpg',
+
+    // SEO Metadata
+    metadata: [
+      { name: 'keywords', content: 'On-Site, Roleplay, Roblox, SCP, Threshold Initiative, Wiki, Lore, RP' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+    ],
 
     // 强制深色模式，禁用切换按钮
     colorMode: {
@@ -56,9 +68,9 @@ const config: Config = {
 
     // ── Navbar ───────────────────────────────────────────────────
     navbar: {
-      title: 'ThresholdInitiative',
+      title: 'On-Site: Roleplay',
       logo: {
-        alt: 'ThresholdInitiative',
+        alt: 'On-Site: Roleplay',
         src: 'img/logo.png',
       },
       style: 'dark',
@@ -134,8 +146,8 @@ const config: Config = {
         },
       ],
       copyright: [
-        `Copyright © ${new Date().getFullYear()} ThresholdInitiative.`,
-        'All lore and content are original works of the Threshold Initiative development team.',
+        `Copyright © ${new Date().getFullYear()} On-Site: Roleplay.`,
+        'All lore and content are original works of the On-Site: Roleplay development team.',
       ].join(' '),
     },
 

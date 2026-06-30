@@ -877,8 +877,8 @@ export default function Home(): React.ReactElement {
 
   return (
     <Layout
-      title="Threshold Initiative — Official Knowledge Archive"
-      description="The official knowledge archive for Threshold Initiative — lore, protocols, clearance levels, and operational directives."
+      title="On-Site: Roleplay — Official Knowledge Archive"
+      description="The official knowledge archive for On-Site: Roleplay — lore, protocols, clearance levels, and operational directives."
     >
       {/* Inject CSS */}
       <style dangerouslySetInnerHTML={{ __html: GLOBAL_CSS }} />
@@ -900,7 +900,7 @@ export default function Home(): React.ReactElement {
             <p className="ti-hero-eye">
               THE ADMINISTRATION · ARCHIVAL DIVISION · PUBLIC ACCESS TERMINAL
             </p>
-            <h1 className="ti-hero-title">THRESHOLD<br />INITIATIVE</h1>
+            <h1 className="ti-hero-title">ON-SITE<br />ROLEPLAY</h1>
             <p className="ti-hero-title-sub">WIKI · KNOWLEDGE ARCHIVE</p>
             <div className="ti-hero-divider" />
             <p className="ti-hero-desc">
@@ -942,7 +942,7 @@ export default function Home(): React.ReactElement {
             </div>
             <span className="ti-status-sep">·</span>
             <div className="ti-status-item" style={{ marginLeft: 'auto' }}>
-              THRESHOLD INITIATIVE · OFFICIAL KNOWLEDGE BASE
+              ON-SITE: ROLEPLAY · OFFICIAL KNOWLEDGE BASE
             </div>
           </div>
         </div>
@@ -986,7 +986,7 @@ export default function Home(): React.ReactElement {
             <div className="ti-warn">
               <span className="ti-warn-icon">⚠ NOTICE</span>
               <p className="ti-warn-text">
-                This archive is maintained by the Threshold Initiative development team.
+                This archive is maintained by the On-Site: Roleplay development team.
                 All lore, protocols, and directives are original fiction produced for the game.
                 Do not treat any content as real-world guidance.
               </p>
@@ -1000,10 +1000,10 @@ export default function Home(): React.ReactElement {
           <aside className="ti-sidebar">
             <div className="ti-sidebar-section">
               <p className="ti-sidebar-label">ABOUT THIS GAME</p>
-              <p className="ti-sidebar-title">Threshold Initiative</p>
+              <p className="ti-sidebar-title">On-Site: Roleplay</p>
               <p className="ti-sidebar-body">
                 The official knowledge archive for{' '}
-                <a href="#" style={{ color: 'var(--ti-text)' }}>Threshold Initiative</a>
+                <a href="#" style={{ color: 'var(--ti-text)' }}>On-Site: Roleplay</a>
                 , maintained by the official development team.
               </p>
               <div className="ti-sidebar-row">
@@ -1051,13 +1051,13 @@ export default function Home(): React.ReactElement {
         <footer className="ti-footer">
           <div className="ti-footer-inner">
             <div className="ti-footer-top">
-              <p className="ti-footer-wordmark">Threshold Initiative</p>
+              <p className="ti-footer-wordmark">On-Site: Roleplay</p>
               <span className="ti-footer-sep">·</span>
               <p className="ti-footer-sub">Public Knowledge Archive</p>
               <span className="ti-footer-sep">·</span>
               <p className="ti-footer-sub">All Clearance Levels</p>
               <p className="ti-footer-sub" style={{ marginLeft: 'auto' }}>
-                © {new Date().getFullYear()} Vospek · Threshold Initiative Development Team
+                © {new Date().getFullYear()} Vospek · On-Site: Roleplay Development Team
               </p>
             </div>
             <p className="ti-footer-quote">

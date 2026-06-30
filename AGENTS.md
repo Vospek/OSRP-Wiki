@@ -2,7 +2,7 @@
 
 ## What this is
 
-Docusaurus 3.10 static wiki for **ThresholdInitiative**, themed with a dark classified/bureaucratic aesthetic. Uses React 19, TypeScript 6, Tailwind CSS 4.
+Docusaurus 3.10 static wiki for **On-Site: Roleplay**, themed with a dark classified/bureaucratic aesthetic. Uses React 19, TypeScript 6, Tailwind CSS 4.
 
 ## Package manager
 
