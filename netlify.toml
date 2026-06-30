@@ -1,0 +1,17 @@
+[build]
+  # 优先使用 pnpm 进行构建
+  command = "corepack enable pnpm && pnpm install --frozen-lockfile && pnpm build"
+  publish = "build"
+
+[build.environment]
+  # Docusaurus 3.x 需要 Node.js 18.0 或更高版本，这里固定为较新的长期支持版 20
+  NODE_VERSION = "20"
+  
+  # 用于控制 Netlify 上的环境变量
+  YARN_ENABLE_IMMUTABLE_INSTALLS = "false"
+
+# 自定义 404 页面回退，指向 Docusaurus 默认构建出的 404.html
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
