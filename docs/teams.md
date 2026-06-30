@@ -1,0 +1,3 @@
+# teams
+
+Placeholder content.
