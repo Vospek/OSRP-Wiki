@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thres-wiki.vospek.com/sitemap.xml
+Sitemap: https://osrpwiki.vospek.com/sitemap.xml

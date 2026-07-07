@@ -19,14 +19,14 @@ const config: Config = {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: 'On-Site: Roleplay — Official Knowledge Archive',
-        url: 'https://thres-wiki.vospek.com/'
+        url: 'https://osrpwiki.vospek.com/'
       }),
     },
   ],
 
   future: { v4: true },
 
-  url:              'https://thres-wiki.vospek.com',
+  url:              'https://osrpwiki.vospek.com',
   baseUrl:          '/',
   organizationName: 'Vospek',
   projectName:      'Wiki',
