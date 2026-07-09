@@ -30,7 +30,7 @@ const config: Config = {
   baseUrl:          '/',
   organizationName: 'Vospek',
   projectName:      'Wiki',
-  onBrokenLinks:    'warn',
+  onBrokenLinks:    'throw',
 
   i18n: {
     defaultLocale: 'en',
@@ -52,6 +52,7 @@ const config: Config = {
         theme: {
           customCss: [
             require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/homepage.css'),
             require.resolve('./src/css/tailwind.css'),
           ],
         },
@@ -89,7 +90,7 @@ const config: Config = {
       title: 'On-Site: Roleplay',
       logo: {
         alt: 'On-Site: Roleplay',
-        src: 'img/logo.png',
+        src: 'img/logo.svg',
       },
       style: 'dark',
       items: [
@@ -173,7 +174,7 @@ const config: Config = {
     prism: {
       theme:       prismThemes.vsDark,
       darkTheme:   prismThemes.vsDark,
-      additionalLanguages: ['typescript', 'tsx', 'bash', 'json'],
+      additionalLanguages: ['typescript', 'bash', 'json'],
     },
 
     // ── Docs ─────────────────────────────────────────────────────

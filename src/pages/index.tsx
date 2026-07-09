@@ -826,7 +826,7 @@ const LORE_ENTRIES = [
 
 const QUICK_LINKS = [
   { label: 'Facility Protocols',  href: '/docs/facility-protocols' },
-  { label: 'Warhead Initiative',  href: '/docs/lore/warhead-initiative' },
+  { label: 'Warhead Initiative',  href: '/docs/lore/the-warhead-initiative' },
   { label: 'Chain of Oversight',  href: '/docs/staff' },
   { label: 'Community Factions',  href: '/docs/faction' },
   { label: 'Lore Archive',        href: '/docs/lore' },
@@ -880,9 +880,6 @@ export default function Home(): React.ReactElement {
       title="Official Knowledge Archive"
       description="The official knowledge archive for On-Site: Roleplay — lore, protocols, clearance levels, and operational directives."
     >
-      {/* Inject CSS */}
-      <style dangerouslySetInnerHTML={{ __html: GLOBAL_CSS }} />
-
       <div className="ti-page">
 
         {/* ── Hero ─────────────────────────────────────────────────── */}
